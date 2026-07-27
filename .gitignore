@@ -1,0 +1,104 @@
+# ==========================
+# Java / Spring Boot
+# ==========================
+target/
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# IDE
+# ==========================
+.idea/
+*.iml
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# React / Vite
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm / pnpm / yarn logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ==========================
+# Coverage / Testing
+# ==========================
+coverage/
+frontend/coverage/
+
+# ==========================
+# Docker
+# ==========================
+docker-compose.override.yml
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ==========================
+# Runtime Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Spring Boot Generated Files
+# ==========================
+spring.log
+
+# ==========================
+# IntelliJ
+# ==========================
+out/
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.pid
+*.seed
+*.orig

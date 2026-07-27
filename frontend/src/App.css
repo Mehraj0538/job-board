@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+header {
+  background: #1f2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.search-bar input,
+.search-bar select {
+  flex: 1;
+  padding: 8px;
+  min-width: 120px;
+}
+
+button {
+  padding: 8px 14px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.job-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.job-card h3 {
+  margin: 0 0 4px 0;
+}
+
+.job-card .meta {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.job-card .desc {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.job-card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.job-card .del {
+  background: #dc2626;
+  margin-left: 8px;
+}
+
+.job-card .del:hover {
+  background: #b91c1c;
+}
+
+.post-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  margin-top: 30px;
+}
+
+.post-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-box input,
+.post-box textarea,
+.post-box select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.post-msg {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.error {
+  color: #dc2626;
+}
