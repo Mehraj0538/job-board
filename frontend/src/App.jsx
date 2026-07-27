@@ -93,7 +93,7 @@ export default function App() {
 
       {/* Main Container */}
       <main className="main-container">
-        
+
         {/* ==================================================================
             PAGE 1: HOME LANDING PAGE
            ================================================================== */}
@@ -104,14 +104,14 @@ export default function App() {
               <div className="hero-pill">
                 🚀 100% Verified Tech Opportunities & Free Job Postings
               </div>
-              
+
               <h1 className="hero-title">
                 Discover Your Next Tech Role <br />
                 or Hire Top Engineering Talent
               </h1>
-              
+
               <p className="hero-subtitle">
-                A full-stack career platform connecting software engineers with innovative tech teams. 
+                A full-stack career platform connecting software engineers with innovative tech teams.
                 Search verified opportunities, explore salary ranges, or post open roles in seconds.
               </p>
 
@@ -144,43 +144,6 @@ export default function App() {
                 <div className="stat-card">
                   <div className="stat-value">{internshipJobs}</div>
                   <div className="stat-label">Internships</div>
-                </div>
-              </div>
-            </section>
-
-            {/* PLATFORM FEATURES SECTION */}
-            <section className="features-section">
-              <div className="section-header-center">
-                <span className="section-tag">WHY JOBBOARD DIRECT</span>
-                <h2 className="section-title-large">Built For Modern Tech Hiring</h2>
-                <p className="section-subtitle">
-                  We streamline the connection between developers and hiring managers with zero bloat.
-                </p>
-              </div>
-
-              <div className="features-grid">
-                <div className="feature-card">
-                  <div className="feature-icon-box">⚡</div>
-                  <h3 className="feature-card-title">Instant Direct Apply</h3>
-                  <p className="feature-card-desc">
-                    No middleman recruiters or endless sign-ups. Click straight through to official company job listings and application portals.
-                  </p>
-                </div>
-
-                <div className="feature-card">
-                  <div className="feature-icon-box">🎯</div>
-                  <h3 className="feature-card-title">Verified Engineering Roles</h3>
-                  <p className="feature-card-desc">
-                    Curated technical opportunities spanning Java, Spring Boot, React, Node, Cloud, and full-stack software development.
-                  </p>
-                </div>
-
-                <div className="feature-card">
-                  <div className="feature-icon-box">🚀</div>
-                  <h3 className="feature-card-title">100% Free Access</h3>
-                  <p className="feature-card-desc">
-                    Free for candidates to search and apply, and completely free for tech companies to publish open requisitions.
-                  </p>
                 </div>
               </div>
             </section>
@@ -231,7 +194,7 @@ export default function App() {
 
               {jobs && jobs.length > 0 && (
                 <div className="job-list">
-                  {jobs.slice(0, 2).map((job) => (
+                  {jobs.slice(0, 3).map((job) => (
                     <JobCard key={job.id} job={job} onDelete={handleDelete} />
                   ))}
                 </div>
