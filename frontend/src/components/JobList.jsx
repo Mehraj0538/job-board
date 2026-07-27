@@ -4,13 +4,14 @@ export default function JobList({ jobs, onDelete, onPostClick }) {
   if (!jobs) {
     return (
       <div className="job-list">
-        {[1, 2, 3].map((n) => (
+        {[1, 2, 3, 4, 5, 6].map((n) => (
           <div key={n} className="skeleton-card">
             <div className="skeleton-avatar"></div>
             <div style={{ flex: 1 }}>
               <div className="skeleton-text" style={{ width: "40%" }}></div>
               <div className="skeleton-text" style={{ width: "65%" }}></div>
               <div className="skeleton-text" style={{ width: "90%" }}></div>
+              <div className="skeleton-text" style={{ width: "55%" }}></div>
             </div>
           </div>
         ))}
